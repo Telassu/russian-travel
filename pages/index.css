@@ -1,0 +1,101 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/Fonts/InterWeb/inter.css);
+
+img {
+    border: 1px solid red;
+    height: 30px;
+    width: 30px;
+}
+
+div, a, p, h1, h2, section {
+    border: 1px solid blue;
+}
+
+.page {
+    max-width: 1024px;
+    min-height: 6895px;
+    background-color: #2a2c2f;
+    margin: auto;
+    font-family: 'Inter', sans-serif;
+}
+
+.header {
+    max-width: 928px;
+    min-height: 52px;
+    margin: 28px auto 48px;
+    color: #fff;
+    display: flex;    
+}
+
+.header__logo {
+    width: 176px;
+    height: 52px;
+    margin-right: auto;
+}
+
+.header__lang-link {
+    font-size: 24px;
+    line-height: 28px;
+    color: #fff;
+    text-decoration: none;
+    padding: 9px;    
+}
+
+.header__lang-link:hover {
+    text-decoration: underline;
+}
+
+.content {
+  width: 928px;
+  margin: auto;
+}
+
+.lead {
+  min-height: 962px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;  
+}
+
+.lead__title {
+  width: 720px;
+  font-size: 96px;
+  font-weight: bold;
+  line-height: 100px;
+  text-align: center;
+    margin: auto;
+}
+
+.lead__subtitle {
+  margin: 32px auto 56px;
+  width: 640px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 36px;
+
+}   
+
+.lead__image {
+  width: 100%;
+  height: 580px;
+}
+
+.lead__caption {
+  font-size: 10px;
+  line-height: 14px;
+  margin-top: 8px;
+}
+
+.intro {
+  width: 690px;
+  height: 429px;
+  color: #fff;
+
+}
+
+/*.intro__title {}
+
+.intro__text {}
+
+.intro__list {}*/
