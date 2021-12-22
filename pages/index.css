@@ -1,10 +1,9 @@
 @import url(../vendor/normalize.css);
-@import url(../vendor/Fonts/InterWeb/inter.css);
+@import url(../vendor/Fonts/fonts.css);
 
 /*img {
     border: 1px solid red;
-    height: 30px;
-    width: 30px;
+
 }
 
 div, a, p, h1, h2, section, article {
@@ -130,17 +129,17 @@ div, a, p, h1, h2, section, article {
   margin: auto;  
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 300px);
-  grid-template-rows: repeat(3, 225px);
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-rows: 1fr;
   grid-gap: 14px;
-  /*grid-auto-rows: auto;*/
   grid-auto-flow: row;
-  justify-items: center;
+
 }
 
 .photo-grid__item {
-  object-fit: cover;
-  
+  width: 300px;
+  height: 225px;
+  object-fit: contain;  
 }
 
 .places {
@@ -155,7 +154,7 @@ div, a, p, h1, h2, section, article {
 .place {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(288px, 460px));
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, min-content);
   grid-gap: 48px 32px;
   grid-auto-flow: row;
@@ -287,23 +286,27 @@ div, a, p, h1, h2, section, article {
   margin-left: auto;  
 }
 
-@media screen and (min-width 1280px) {
+/*@media screen and (min-width 1280px) {
   .content {
     width: calc(100% - 296px);
   }
-
-  .photo-grid {
-    grid-template-columns: repeat(auto-fill, 284px);
-    grid-template-rows: repeat(3, 213px);
+*/
+/*  .photo-grid {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     grid-gap: 16px;
   } 
 }
-
+/*
 @media screen and (min-width 768px max-width 1024px) {
 
 }
+*//*
+@media screen and (min-width 350px max-width 750px) {
+  .page {
+    font-size: 10px;
+  }
 
-@media screen and (min-width 320px max-width 768px) {
   .content {
     width: calc(100% - 32px);
   }
@@ -313,4 +316,4 @@ div, a, p, h1, h2, section, article {
     grid-template-rows: repeat(3, 216px);
     grid-gap: 12px;
   }   
-}
+}*/
