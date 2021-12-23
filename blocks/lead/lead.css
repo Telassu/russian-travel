@@ -4,12 +4,12 @@
   color: #fff;
   display: flex;
   flex-direction: column;
-  align-content: center;  
+  align-content: center;
 }
 
 @media screen and (min-width: 1056px) {
   .lead {
-    width: calc(100% - 296px);   
+    width: calc(100% - 296px);
   }
 }
 
