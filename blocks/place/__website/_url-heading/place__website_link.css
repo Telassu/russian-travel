@@ -1,0 +1,10 @@
+.place__website_link {
+  color: #fff;
+  font-size: 1.1em;
+  line-height: .8;
+  margin: 0;  
+}
+  
+.place__website_link:hover {
+  text-decoration: underline;
+}
