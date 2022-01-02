@@ -7,4 +7,5 @@
   
 .place__website_link:hover {
   text-decoration: underline;
+  opacity: .8;
 }

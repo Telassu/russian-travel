@@ -6,10 +6,14 @@
   
 .place__paragraph:last-child {
   margin-top: 27px;
+  margin-bottom: 0;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .place__paragraph {
-    margin: 32px 16px 50px;
+    margin: 0 16px 25px;
+    font-size: 16px;
+    line-height: 26.08px;
+    grid-row: 4;
   }
 } 
