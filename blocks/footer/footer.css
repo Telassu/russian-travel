@@ -1,5 +1,5 @@
 .footer {
-  width: calc(100% - 96px);  
+  width: calc(100% - 96px);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -15,7 +15,7 @@
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .footer {
     min-width: 186px;
-    min-height: 310px;    
+    min-height: 310px;
     flex-direction: column;
     align-content: space-between;
   }
